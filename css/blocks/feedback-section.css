@@ -1,0 +1,14 @@
+.container--feedback {
+  padding-top: 61px;
+}
+
+.feedback {
+  background: #F4F5F5;
+  color: #1A1B1E;
+  min-height: 800px;
+}
+
+.feedback__title {
+  font-size: 48px;
+  margin-bottom: 57px;
+}

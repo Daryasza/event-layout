@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=1200, initial scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Quiz-box | Reviews</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet"> 
+  <link rel="stylesheet" href="../css/main.css">
+</head>
+<body>
+  <!-- hero section: header & h1-->
+  <div class="wrapper">
+    <section class="section games-top">
+      <div class="container games-top__container">
+          <header class="header header--games">
+            <div class="header__col">
+              <a href="./index.html" class="logo logo--top"><img class="logo__picture" src="../img/logo.png" alt="logo"></a>
+              <nav class="nav nav--top">
+                <ul class="nav__list">
+                  <li class="nav__item"><a class="nav__link" href="./index.html">Главная</a></li>
+                  <li class="nav__item"><a class="nav__link" href="./games.html">Игры</a></li>
+                  <li class="nav__item"><a class="nav__link" href="./reviews.html">Отзывы</a></li>
+                </ul>
+              </nav>
+            </div>
+            <div class="header__col header__col--align--right">
+              <address class="contacts">
+                <a href="tel:+78007003030" class="contacts__phone contacts__phone--top">8 800 700 30 30</a>
+                <div class="contacts__schedule">
+                  <a class="contacts__dropdown">График работы</a>
+                  <div class="contacts__dropdown-menu dropdown">
+                    <div class="dropdown__working">пн-вс: 09:00 - 20.00</div>
+                    <div class="dropdown__break">Обед: 14:00-14.30</div>
+                  </div>
+                </div>
+              </address>
+            </div>
+          </header>
+          <h1 class="games__title section--title section--title--reviews">Отзывы</h1>
+          <nav class="breadcrumbs">
+            <ul class="breadcrumbs__list">
+              <li class="breadcrumbs__item">
+                <a href="./index.html" class="breadcrumbs__link">Главная</a>
+              </li>
+              <li class="breadcrumbs__item breadcrumbs__item--active">
+                <a href="./reviews.html" class="breadcrumbs__link breadcrumb__link--active">Отзывы</a></li>
+            </ul>
+          </nav>
+        </div>
+    </section>
+    <!-- reviews section: reviews listing + paginator -->
+    <main class="section main-games reviews">
+      <div class="container main-games__container reviews__container">
+          <ul class="reviews__list">
+            <li class="reviews__item review">
+              <div class="review__header">
+                <div class="review__photo">
+                  <img src="../img/reviewers/ivan-petrovich.png" alt="avatar" class="avatar">
+                </div>
+                <div class="review__info">
+                  <a href="" class="review__person review__person--active">Иван Петрович</a>
+                  <div class="review__tag tag tag--active">90-е</div>
+                </div>
+              </div>
+              <div class="review__main">
+                <div class="review__title">Крутой квиз про 90-е.</div>
+                <div class="review__text">
+                 <p>Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке, а начинающему оратору отточить навык публичных выступлений в домашних условиях. При создании генератора мы использовали небезизвестный универсальный код речей.</p> 
+                </div>
+              </div>
+              <date class="review__date">Ноябрь 2019</date>
+            </li>
+            <li class="reviews__item review">
+              <div class="review__header">
+                <div class="review__photo">
+                  <img src="../img/reviewers/liza-sidorevich.png" alt="avatar" class="avatar">
+                </div>
+                <div class="review__info">
+                  <a href="../img/reviewers/" class="review__person">Лиза Сидорова</a>
+                  <div class="review__tag tag tag--active">Кино и музыка</div>
+                </div>
+              </div>
+              <div class="review__main">
+                <div class="review__title">Интерестный квиз.</div>
+                <div class="review__text">
+                  <p>Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке, а начинающему оратору отточить навык публичных выступлений в домашних условиях. При создании генератора мы использовали небезизвестный универсальный код речей. </p> 
+                </div>
+              </div>
+              <date class="review__date">Ноябрь 2019</date>
+            </li>
+            <li class="reviews__item review">
+              <div class="review__header">
+                <div class="review__photo">
+                  <img src="../img/reviewers/maria-zhmych.png" alt="avatar" class="avatar">
+                </div>
+                <div class="review__info">
+                  <a href="" class="review__person">Екатерина Жмых</a>
+                  <div class="review__tag tag tag--active">IT-викторина</div>
+                </div>
+              </div>
+              <div class="review__main">
+                <div class="review__title">Очень понравилась викторина.</div>
+                <div class="review__text">
+                  <p>Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке, а начинающему оратору отточить навык публичных выступлений в домашних условиях. При создании генератора мы использовали небезизвестный универсальный код речей. Текст генерируется абзацами случайным образом от двух до десяти предложений в абзаце, что позволяет сделать текст более привлекательным и живым для визуально-слухового восприятия.</p> 
+                </div>
+              </div>
+              <date class="review__date">Ноябрь 2019</date>
+            </li>
+            <li class="reviews__item review">
+              <div class="review__header">
+                <div class="review__photo">
+                  <img src="../img/reviewers/anton-igorevich.png" alt="avatar" class="avatar">
+                </div>
+                <div class="review__info">
+                  <a href="" class="review__person">Антон Игоревич</a>
+                  <div class="review__tag tag tag--active">Гарри Поттер</div>
+                </div>
+              </div>
+              <div class="review__main">
+                <div class="review__title">Был первый раз, очень круто. Не пожалел, что сходил!</div>
+                <div class="review__text">
+                  <p>Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке, а начинающему оратору отточить навык публичных выступлений в домашних условиях. При создании генератора мы использовали небезизвестный универсальный код речей.</p> 
+                </div>
+              </div>
+              <date class="review__date">Ноябрь 2019</date>
+            </li>
+          </ul>
+          <div class="paginator paginator--games paginator--reviews">
+            <div class="paginator__display">Страница 1 из 7</div>
+            <ul class="paginator__list paginator__list--games">
+              <li class="paginator__item paginator__item--active paginator__item--games--active"><a href="#" class="paginator__link">1</a></li>
+              <li class="paginator__item"><a href="#" class="paginator__link">2</a></li>
+              <li class="paginator__item"><a href="#" class="paginator__link">3</a></li>
+              <li class="paginator__item"><a href="#" class="paginator__link">4</a></li>
+              <li class="paginator__item"><a href="#" class="paginator__link">5</a></li>
+              <li class="paginator__item"><a href="#" class="paginator__link">6</a></li>
+              <li class="paginator__item"><a href="#" class="paginator__link">7</a></li>
+            </ul>
+          </div>
+      </div>
+    </main>
+    <!-- separator section -->
+    <section class="section separator">
+      <div class="container">
+        <div class="separator__content">
+          <h2 class="separator__title">
+            Подберём игру для вас!
+          </h2>
+        </div>
+      </div>
+    </section>
+    <section class="section feedback">
+      <div class="container container--feedback">
+        <h2 class="subtitle subtitle--black feedback__title">
+          Оставьте отзыв
+        </h2>
+        <form class="form">
+          <div class="form__row form__row--top">
+            <input type="text" placeholder="ФИО" class="form__input">
+            <input type="text" placeholder="Ссылка на профиль VK" class="form__input">
+          </div>
+          <div class="form__row form__row--bottom">
+            <textarea type="text" placeholder="Напишите свой честный отзыв ;)" class="form__input form__input--textarea"></textarea>
+          </div>
+          <div class="form__controls">
+            <div class="form__controls-title">
+              Какими услугами компании пользуетесь?
+            </div>
+            <ul class="controls">
+              <li class="controls__item">
+                <label class="controls__element">
+                  <input type="checkbox" class="controls__checkbox">
+                  <div class="tag controls__tag">Остров обезьян</div>
+                </label>
+              </li>
+              <li class="controls__item">
+                <label class="controls__element">
+                  <input type="checkbox" class="controls__checkbox">
+                  <div class="tag controls__tag">Тур по Тайланду</div>
+                </label>
+              </li>
+              <li class="controls__item">
+                <label class="controls__element">
+                  <input type="checkbox" checked class="controls__checkbox">
+                  <div class="tag controls__tag">Водопад Янг-бей</div>
+                </label>
+              </li>
+              <li class="controls__item">
+                <label class="controls__element">
+                  <input type="checkbox" class="controls__checkbox">
+                  <div class="tag controls__tag">Тур по Индонезии</div>
+                </label>
+              </li>
+              <li class="controls__item">
+                <label class="controls__element">
+                  <input type="checkbox" class="controls__checkbox">
+                  <div class="tag controls__tag">Никакими</div>
+                </label>
+              </li>
+              <li class="controls__item">
+                <label class="controls__element">
+                  <input type="checkbox" class="controls__checkbox">
+                  <div class="tag controls__tag">Тур по Бали</div>
+                </label>
+              </li>
+              <li class="controls__item">
+                <label class="controls__element">
+                  <input type="checkbox" class="controls__checkbox">
+                  <div class="tag controls__tag">Другое</div>
+                </label>
+              </li>
+            </ul>
+          </div>
+          <div class="form__buttons">
+            <button type="reset" class="form__btn form__btn--reset btn btn--color--black">Очистить</button>
+            <button type="submit"  class="form__btn form__btn--submit btn btn--color--purple">Отправить</button>
+          </div>
+        </form>
+      </div>
+    </section>
+    <!-- footer -->
+    <footer class="footer-games"> 
+      <div class="container footer-games__container">
+        <div class="footer">
+          <div class="footer__col">
+            <a href="./index.html" class="logo logo--bottom"><img class="logo__picture" src="../img/logo.png" alt="logo"></a>
+            <nav class="nav nav--bottom">
+              <ul class="nav__list">
+                <li class="nav__item"><a class="nav__link" href="./index.html">Главная</a>
+                </li>
+                <li class="nav__item"><a class="nav__link" href="./games.html">Игры</a>
+                </li>
+                <li class="nav__item"><a class="nav__link" href="./reviews.html">Отзывы</a></li>
+              </ul>
+            </nav>
+          </div>
+          <div class="footer__col footer__col--align--right">
+            <nav class="socials">
+              <ul class="socials__list">
+                <li class="socials__item socials__item--telegram">
+                  <a href="#" class="socials__link socials__link--t"></a>
+                </li>
+                <li class="socials__item socials__item--vk">
+                  <a href="#" class="socials__link socials__link--vk"></a>
+                </li>
+                <li class="socials__item socials__item--facebook">
+                  <a href="#" class="socials__link socials__link--f"></a>
+                </li>
+                <li class="socials__item socials__item--insta">
+                  <a href="#" class="socials__link socials__link--i"></a>
+                </li>
+              </ul>
+            </nav>
+            <address class="contacts  contacts--footer--games">
+              <div class="contacts__text">Бесплатный звонок по России</div>
+              <a href="tel:+78007003030" class="contacts__phone contacts__phone--bottom">8 800 700 30 30</a>
+            </address>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+</body>
+</html>

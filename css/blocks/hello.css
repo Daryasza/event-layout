@@ -1,0 +1,50 @@
+.wrapper--hello {
+  background: url(../../img/backgrounds/background-hello.jpg) center center /cover no-repeat;
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.hello {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 60px;
+  animation: jump 1s;
+  opacity: 0;
+  animation-fill-mode: forwards;
+}
+
+.hello__logo {
+  margin-bottom: 30px;
+}
+
+@keyframes jump {
+  0% {
+    transform: translateY(0);
+  }
+
+  30% {
+    animation-timing-function: cubic-bezier(1,-0.45,.08,1.59);
+    transform: translateY(-30px);
+  }
+
+  40% {
+    transform: translateY(0);
+  }
+
+  60% {
+    animation-timing-function: cubic-bezier(1,-0.45,.08,1.59);
+    transform: translateY(-20px);
+  }
+
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}

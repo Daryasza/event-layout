@@ -1,0 +1,36 @@
+.service {
+  padding: 40px 0px;
+  display: flex;
+  flex-direction: column;
+}
+
+.service__item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.service__item:last-child {
+  margin-bottom: 0;
+}
+
+.service__desciption {
+  flex: 1;
+  padding: 10px 0;
+}
+
+.service__img {
+  width: 41%;
+  margin-right: 4%;
+  flex-shrink: 0;
+}
+
+.service__title{
+  font-size: 36px;
+  margin-bottom: 30px;
+}
+
+.service__text {
+  line-height: 1.7;
+  margin-bottom: 33px;
+}

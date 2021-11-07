@@ -1,0 +1,16 @@
+.wrapper {
+  overflow: hidden;
+  min-width: 1200px;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.wrapper--main {
+  background: url('../../img/backgrounds/main-page-wrapper-top.png') center top 30px no-repeat, url('../../img/backgrounds/main-page-wrapper-bottom.png') center bottom 170px no-repeat;
+  background-color: #17191C;
+  background-blend-mode: luminosity;
+  box-shadow: 0 3em 51em 5em #17191C inset;
+  padding: 23px;
+  margin: -15px;
+}

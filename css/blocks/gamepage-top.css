@@ -1,0 +1,25 @@
+/* section top */
+.games-top {
+  background: url(../../img/backgrounds/services-backgound-top.png);
+  background-size: cover;
+  background-position:top left 50% ;
+  background-repeat: no-repeat;
+  min-height: 409px;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 24px;
+}
+
+.games-top__container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.games__title {
+  font-size: 72px;
+  line-height: 1;
+  font-weight: bold;
+  margin-bottom: 43px;
+}

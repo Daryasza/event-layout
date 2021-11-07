@@ -1,0 +1,55 @@
+.btn {
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 14px;
+  text-transform: uppercase;
+  display: inline-block;
+  transition: .5s;
+}
+
+.btn--color--purple {
+  background: #8F00FF;
+  padding: 18px 38px;
+}
+
+.btn--color--purple:hover {
+  background: #741BBA;
+}
+
+.btn--color--transparent {
+  background: rgba(0,0,0,0);
+  border: 1px solid #fff;
+}
+
+.btn--color--transparent:hover {
+  background: rgba(0,0,0,.2);
+  border: 1px solid #fff;
+}
+
+.btn--color-white {
+  background:#fff;
+  border: #8F00FF 1px solid;
+  color: #8F00FF;
+  padding: 17px 30px;
+  
+}
+
+.btn--color-white:hover, .btn--color-white--active {
+  background: #8F00FF;
+  color: #fff;
+}
+
+.service__button {
+  padding: 17px 40px;
+}
+
+.btn--color--black {
+  background: #8E8E8E;
+  color: #fff;
+  padding: 18px 42px;
+}
+
+.btn--color--black:hover {
+  background: #2B2B2B;
+}
+

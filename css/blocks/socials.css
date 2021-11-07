@@ -1,0 +1,143 @@
+.socials {
+  margin-right: 74px;
+}
+
+.socials__item {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 6px;
+}
+
+.socials__item:last-child {
+  margin-right: 0;
+} 
+
+.socials__link {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  position: relative;
+  padding-left: 36px;
+} 
+
+.socials__link--t::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 36px;
+  height: 36px;
+  opacity: 0;
+  transition: .5s;
+
+  background: url('../../img/socials-icons/css_sprites.png') -122px -10px;
+}
+
+.socials__link--t::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 36px;
+  height: 36px;
+  transition: .5s;
+  
+  background: url('../../img/socials-icons/css_sprites.png') -122px -66px;
+}
+
+.socials__link--vk::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 36px;
+  height: 36px;
+  opacity: 0;
+  transition: .5s;
+  background: url('../../img/socials-icons/css_sprites.png') -10px -122px;
+}
+
+.socials__link--vk::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 36px;
+  height: 36px;
+  transition: .5s;
+  
+
+  background: url('../../img/socials-icons/css_sprites.png') -66px -122px;
+}
+
+.socials__link--f::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 36px;
+  height: 36px;
+  opacity: 0;
+  transition: .5s;
+  background: url('../../img/socials-icons/css_sprites.png') -66px -10px;
+}
+
+.socials__link--f::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 36px;
+  height: 36px;
+  transition: .5s;
+  
+  background: url('../../img/socials-icons/css_sprites.png') -10px -10px;
+}
+
+.socials__link--i::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 36px;
+  height: 36px;
+  opacity: 0;
+  transition: .5s;
+  background: url('../../img/socials-icons/css_sprites.png') -66px -66px;
+}
+
+.socials__link--i::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 36px;
+  height: 36px;
+  transition: .5s;
+  
+  background: url('../../img/socials-icons/css_sprites.png') -10px -66px;
+}
+
+.socials__link:hover::before {
+  opacity: 1;
+}
+
+.socials__link:hover::after {
+  opacity: 0;
+}

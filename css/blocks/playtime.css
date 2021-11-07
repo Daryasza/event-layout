@@ -1,0 +1,30 @@
+.playtime {
+  color: #666666;
+  margin-bottom: 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.playtime__item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.playtime__icon {
+  background-size: cover;
+  width: 25px;
+  height: 25px;
+  margin-right: 10px;
+}
+
+.icon--clock {
+  background-image: url(../../img/icons/clock.svg);
+}
+
+.icon--qa {
+  background-image: url(../../img/icons/qa.svg);
+}

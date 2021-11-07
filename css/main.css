@@ -1,0 +1,36 @@
+@import url(./layout/normalize.css);
+@import url(./layout/base.css);
+
+@import url(./blocks/container.css);
+@import url(./blocks/wrappers.css);
+
+@import url(./blocks/hero.css);
+@import url(./blocks/header.css);
+@import url(./blocks/logo.css);
+@import url(./blocks/nav.css);
+@import url(./blocks/contacts.css);
+@import url(./blocks/buttons.css);
+@import url(./blocks/weeknews.css);
+@import url(./blocks/quiz.css);
+@import url(./blocks/paginator.css);
+@import url(./blocks/pastgames.css);
+@import url(./blocks/playtime.css);
+@import url(./blocks/about.css);
+@import url(./blocks/footer.css);
+@import url(./blocks/socials.css);
+
+@import url(./blocks/gamepage-top.css);
+@import url(./blocks/breadcrumbs.css);
+@import url(./blocks/gamepage-main.css);
+@import url(./blocks/service.css);
+@import url(./blocks/partners.css);
+
+@import url(./blocks/reviewpage.css);
+@import url(./blocks/review.css);
+@import url(./blocks/tag.css);
+@import url(./blocks/separator-section.css);
+@import url(./blocks/form.css);
+@import url(./blocks/controls.css);
+@import url(./blocks/feedback-section.css);
+
+@import url(./blocks/hello.css);

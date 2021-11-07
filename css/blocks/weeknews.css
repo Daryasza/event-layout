@@ -1,0 +1,25 @@
+.weeknews {
+  margin-bottom: 126px;
+  width: 100%;
+}
+
+.weeknews__title {
+  margin-bottom: 50px;
+  display: flex;
+  align-items: center;
+}
+
+.weeknews__title::after {
+  content: url(../../img/icons/vector.png);
+  height: 40px;
+  padding-left: 20px;
+}
+
+.weeknews__list {
+  display: flex;
+  justify-content: space-between;
+}
+  
+.weeknews__item {
+  width: calc(100% / 3 - 18px);
+}

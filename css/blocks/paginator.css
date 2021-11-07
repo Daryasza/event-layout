@@ -1,0 +1,63 @@
+.paginator {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 52px;
+}
+
+.paginator--main .paginator__display {
+  margin-right: 50px;
+}
+
+.paginator--games .paginator__display {
+  margin-right: 14px;
+}
+
+.paginator--reviews .paginator__display {
+  margin-right: 46px;
+}
+
+.paginator--games {
+  padding-top: 22px;
+  min-width: 20%;
+}
+
+.paginator--reviews {
+  padding-top: 55px;
+}
+
+.paginator__list {
+  display: flex;
+  align-items: center;
+}
+
+.paginator__item {
+text-align: center;
+display: flex;
+justify-content: space-between;
+}
+
+.paginator__link {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  font-weight: bold;
+  line-height: 32px;
+  transition: .5s;
+}
+
+.paginator__item--active .paginator__link {
+  background: #8F00FF;
+}
+
+.paginator__link:hover {
+  background: #8F00FF
+}
+
+.paginator__list--games .paginator__item .paginator__link:hover {
+  color: #fff;
+}
+
+.paginator__item--games--active {
+  color: #fff;
+}

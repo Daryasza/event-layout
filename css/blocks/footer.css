@@ -1,0 +1,27 @@
+.footer {
+display: flex;
+justify-content: space-between;
+align-items: center;
+position: relative;
+margin-top: auto;
+}
+
+.footer-mp__container {
+  border-top: 1px solid rgba(255,255,255,.1);
+  padding-top: 41px;
+  height: 146px;
+}
+
+.footer__col {
+  display: flex;
+  align-items: center;
+}
+
+.footer__col--aling--right {
+  justify-content: flex-end;
+}
+
+.footer-games {
+  height: 132px;
+  padding-top: 49px;
+}

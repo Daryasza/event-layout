@@ -1,0 +1,53 @@
+.about {
+  margin-bottom: 54px;
+  display: flex;
+  justify-content: stretch;
+}
+
+.about::before {
+  content: "";
+  width: 485px;
+  height: 505px;
+  background-image: url(../../img/main-content/about.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 4px;
+  margin: 0;
+  display: block;
+}
+
+.about__description {
+  background: linear-gradient(71.43deg, #8F00FF 0%, #148CFF 100%), #212121;
+  padding: 69px 83px;
+  min-height: 200px;
+  max-width: 787px;
+  margin-left: -135px;
+  margin-top: 97px;
+  border-radius: 4px;
+  flex: 1;
+}
+
+
+.about__heading {
+  margin-bottom: 37px;
+}
+
+.about__text {
+  margin-bottom: 38px;
+  width: 501px;
+}
+
+.about__text p {
+  margin-bottom: 20px;
+  line-height: 27px;
+}
+
+.about__text p:last-child {
+  margin-bottom: 0;
+}
+
+.about__button {
+  justify-content: flex-start;
+  margin-top: auto;
+}

@@ -1,0 +1,36 @@
+.games-partners{
+  background-color: #F4F5F5;
+  min-height: 536px;
+  padding: 86px 0;
+}
+
+.games-partners__container{
+  flex:1;
+}
+
+.partners__list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -31px;
+}
+
+.partners__title {
+  font-size: 48px;
+  color: black;
+  font-weight: 700;
+  margin-bottom: 63px;
+}
+
+.partners__link {
+  display: flex;
+  width: 292px;
+  height: 116px;
+  align-items: center;
+  justify-content: center;
+  filter: grayscale(100%);
+  transition: .5s;
+}
+
+.partners__link:hover {
+filter: none;
+}

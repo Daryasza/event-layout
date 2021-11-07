@@ -1,0 +1,23 @@
+.nav
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav__item {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 62px;
+}
+
+.nav__link {
+  font-size: 16px;
+  line-height: 22px;
+  text-decoration: none;
+  transition: .5s;
+}
+
+.nav__link:hover {
+  color: #8F00FF;
+}

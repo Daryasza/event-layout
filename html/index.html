@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=1200, initial scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Quiz-box | Main Page</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet"> 
+  <link rel="stylesheet" href="../css/main.css">
+</head>
+<body>
+  <!-- hero section: header & h1-->
+  <div class="wrapper wrapper--main">
+    <section class="section">
+      <div class="container container--hero">
+        <div class="hero">
+          <header class="header header--main">
+            <div class="header__col">
+              <a href="#" class="logo logo--top"><img class="logo__picture" src="../img/logo.png" alt="logo"></a>
+              <nav class="nav nav--top">
+                <ul class="nav__list">
+                  <li class="nav__item"><a class="nav__link" href="./index.html">Главная</a></li>
+                  <li class="nav__item"><a class="nav__link" href="./games.html">Игры</a></li>
+                  <li class="nav__item"><a class="nav__link" href="./reviews.html">Отзывы</a></li>
+                </ul>
+              </nav>
+            </div>
+            <div class="header__col header__col--align--right">
+              <address class="contacts">
+                <a href="tel:+78007003030" class="contacts__phone contacts__phone--top">8 800 700 30 30</a>
+                <div class="contacts__schedule">
+                  <a class="contacts__dropdown">График работы</a>
+                  <div class="contacts__dropdown-menu dropdown">
+                    <div class="dropdown__working">пн-вс: 09:00 - 20.00</div>
+                    <div class="dropdown__break">Обед: 14:00-14.30</div>
+                  </div>
+                </div>
+              </address>
+            </div>
+          </header>
+          <div class="hero__content">
+            <div class="hero__text">
+              <h1 class="hero__title">Интеллектуальный вечер для шумной компании</h1>
+              <h4 class="hero__subtitle">Игры на любой вкус</h4>
+            </div>
+            <a href="#" class="hero__btn btn btn--color--purple">Подробнее</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- weeknews section: listing of new games of the week -->
+    <section class="section">
+      <div class="container">
+        <div class="weeknews">
+          <h2 class="weeknews__title section--title">Новинки недели</h2>
+          <ul class="weeknews__list">
+            <li class="weeknews__item quiz">
+              <div class="quiz__header quiz__header--mq"></div>
+              <div class="quiz__description">
+                <h3 class="quiz__title subtitle subtitle--black">Музыкальная игра</h3>
+                <ul class="playtime">
+                  <li class="playtime__item">
+                    <div class="playtime__icon icon--clock"></div>
+                    <div class="playtime__text">90 минут</div>
+                  </li>
+                  <li class="playtime__item">
+                    <div class="playtime__icon icon--qa"></div>
+                    <div class="playtime__text">70 вопросов</div>
+                  </li>
+                </ul>
+                <div class="quiz__text">
+                  <p>Равным образом постоянное обеспечение нашей деятельности позволяет оценить значение систем массового участия. </p>
+                </div>
+                <div class="quiz__btn-wrapper">
+                  <a href="#" class="quiz__button btn btn--color-white">Смотреть</a>
+                </div>
+              </div>
+            </li>
+            <li class="weeknews__item quiz">
+              <div class="quiz__header quiz__header--90"></div>
+              <div class="quiz__description">
+                <h3 class="quiz__title subtitle subtitle--black">Назад в 90-е</h3>
+                <ul class="playtime">
+                  <li class="playtime__item">
+                    <div class="playtime__icon icon--clock"></div>
+                    <div class="playtime__text">90 минут</div>
+                  </li>
+                  <li class="playtime__item">
+                    <div class="playtime__icon icon--qa"></div>
+                    <div class="playtime__text">70 вопросов</div>
+                  </li>
+                </ul>
+                <div class="quiz__text">
+                  <p>Равным образом постоянное обеспечение нашей деятельности позволяет оценить значение систем массового участия.</p>
+                </div>
+                <div class="quiz__btn-wrapper">
+                  <a href="#" class="quiz__button btn btn--color-white btn--color-white--active">Смотреть</a>
+                </div>
+              </div>
+            </li>
+            <li class="weeknews__item quiz">
+              <div class="quiz__header quiz__header--qi"></div>
+              <div class="quiz__description">
+                <h3 class="quiz__title subtitle subtitle--black">IT-викторина</h3>
+                <ul class="playtime">
+                  <li class="playtime__item">
+                    <div class="playtime__icon icon--clock"></div>
+                    <div class="playtime__text">90 минут</div>
+                  </li>
+                  <li class="playtime__item">
+                    <div class="playtime__icon icon--qa"></div>
+                    <div class="playtime__text">70 вопросов</div>
+                  </li>
+                </ul>
+                <div class="quiz__text">
+                  <p>Равным образом постоянное обеспечение нашей деятельности позволяет оценить значение систем массового участия.</p>
+                </div>
+                <div class="quiz__btn-wrapper">
+                  <a href="#" class="quiz__button btn btn--color-white">Смотреть</a>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <!-- past games section: listing of past games + paginator -->
+    <section class="section">
+      <div class="container">
+        <div class="pastgames">
+          <h2 class="pastgames__heading section--title">Прошедшие игры</h2>
+          <ul class="pastgames__list pastgame">
+            <li class="pastgames__item pastgame__item">
+              <img src="../img/main-content/new-year-quiz.png" alt="new-year" class="pastgame__image">
+              <div class="pastgame__description">
+                <time class="pastgame__date">1 января</time>
+                <h3 class="pastgame__name subtitle subtitle--white">Новогодний квиз</h3>
+                <div class="pastgame__text">
+                  <p>Успевайте забронировать даты. Пока еще есть места на декабрь. Удачи и всех благ!</p>
+                </div>
+              </div>
+            </li>
+            <li class="pastgames__item pastgame__item">
+              <img src="../img/main-content/spring-game.png" alt="spring-game" class="pastgame__image">
+              <div class="pastgame__description">
+                <time class="pastgame__date">8 марта</time>
+                <h3 class="pastgame__name subtitle subtitle--white">Весенняя игра</h3>
+                <div class="pastgame__text">
+                  <p>Успевайте забронировать даты. Пока еще есть места на март. Удачи и всех благ!</p>
+                </div>
+              </div>
+            </li>
+          </ul>
+          <div class="paginator paginator--main">
+            <div class="paginator__display">Страница 1 из 7</div>
+            <ul class="paginator__list">
+              <li class="paginator__item paginator__item--active "><a href="" class="paginator__link">1</a></li>
+              <li class="paginator__item"><a href="#" class="paginator__link">2</a></li>
+              <li class="paginator__item"><a href="#" class="paginator__link">3</a></li>
+              <li class="paginator__item"><a href="#" class="paginator__link">4</a></li>
+              <li class="paginator__item"><a href="#" class="paginator__link">5</a></li>
+              <li class="paginator__item"><a href="#" class="paginator__link">6</a></li>
+              <li class="paginator__item"><a href="#" class="paginator__link">7</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- about us section: cover image & text -->
+    <section class="section">
+      <div class="container">
+        <div class="about">
+          <div class="about__description">
+            <h2 class="about__heading section--title">О нас</h2>
+            <div class="about__text">
+              <p>Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке, а начинающему оратору отточить навык публичных выступлений в домашних условиях. </p>
+            </div>
+            <a href="#" class="about__button btn btn--color--purple btn--color--transparent">Подробнее</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- footer -->
+    <footer class="footer-mp"> 
+      <div class="container footer-mp__container">
+        <div class="footer">
+          <div class="footer__col">
+            <a href="#" class="logo logo--bottom"><img class="logo__picture" src="../img/logo.png" alt="logo"></a>
+            <nav class="nav nav--bottom">
+              <ul class="nav__list">
+                <li class="nav__item"><a class="nav__link" href="./index.html">Главная</a>
+                </li>
+                <li class="nav__item"><a class="nav__link" href="./games.html">Игры</a>
+                </li>
+                <li class="nav__item"><a class="nav__link" href="./reviews.html">Отзывы</a></li>
+              </ul>
+            </nav>
+          </div>
+          <div class="footer__col footer__col--align--right">
+            <nav class="socials">
+              <ul class="socials__list">
+                <li class="socials__item socials__item--telegram">
+                  <a href="#" class="socials__link socials__link--t"></a>
+                </li>
+                <li class="socials__item socials__item--vk">
+                  <a href="#" class="socials__link socials__link--vk"></a>
+                </li>
+                <li class="socials__item socials__item--facebook">
+                  <a href="#" class="socials__link socials__link--f"></a>
+                </li>
+                <li class="socials__item socials__item--insta">
+                  <a href="#" class="socials__link socials__link--i"></a>
+                </li>
+              </ul>
+            </nav>
+            <address class="contacts contacts--footer">
+              <div class="contacts__text">Бесплатный звонок по России</div>
+              <a href="tel:+78007003030" class="contacts__phone contacts__phone--bottom">8 800 700 30 30</a>
+            </address>
+          </div>
+        </div>
+      </footer>
+  </div>
+</body>
+</html>

@@ -1,0 +1,51 @@
+
+.quiz {
+  min-height: 449px;
+  background: #fff;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+}
+
+.quiz__header {
+  height: 146px;
+  background-size: cover;
+  margin-bottom: 5px;
+}
+
+.quiz__header--mq {
+  background: url(../../img/main-content/music-quiz.png);
+}
+
+.quiz__header--90 {
+  background: url(../../img/main-content/back90s.png);
+}
+
+.quiz__header--qi {
+  background: url(../../img/main-content/quizit.png);
+}
+
+.quiz__description {
+  padding: 26px 19px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.quiz__title {
+  margin-bottom: 20px;
+}
+
+.quiz__text {
+  color: #303030;
+  font-size: 14px;
+  line-height: 21px;
+  margin-bottom: 10px;
+}
+
+.quiz__btn-wrapper {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: auto;
+}

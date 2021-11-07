@@ -1,0 +1,23 @@
+.section--title--reviews {
+  margin-bottom: 65px;
+}
+
+.reviews {
+  padding-top: 103px;
+  min-height: 1580px;
+}
+
+.reviews__list {
+column-count: 2;
+column-gap: 30px;
+}
+
+.reviews__item {
+  margin-bottom: 17px;
+}
+
+
+
+
+
+
