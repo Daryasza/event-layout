@@ -49,7 +49,7 @@
   padding: 18px 42px;
 }
 
-.btn--color--black:hover {
+.btn--color--black:hover, .btn--color--black--active {
   background: #2B2B2B;
 }
 
