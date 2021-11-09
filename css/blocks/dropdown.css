@@ -1,0 +1,38 @@
+.dropdown {
+  padding: 11px 18px 14px;
+  background: #CDD1D2;
+  color:black;
+  font-weight: 600;
+  line-height: 1.7;
+  text-align: left;
+  border-radius: 5px;
+  position: absolute;
+  top: 100%;
+  margin-top: 7px;
+  left: -9999px;
+  opacity: 0;
+}
+
+.dropdown::before {
+  content: "";
+  height: 105px;
+  width: 106%;
+  position: absolute;
+  top: -30px;
+  left: -5px;
+}
+
+.dropdown::after {
+  content: "";
+  position: absolute;
+  border: 10px solid transparent;
+  border-bottom-color: #CDD1D2;
+  border-top-width: 0;
+  top: -9px;
+  right: 44px;
+}
+
+
+.dropdown__working {
+  font-weight: 700;
+}
