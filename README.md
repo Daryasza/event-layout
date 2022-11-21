@@ -16,10 +16,6 @@
 </p>
 
 
-## Browser Support
 
-| Chrome  | Android (WebView) |  Safari | Safari on iOS | Edge | IE |
-| :---:   | :---: | :---: | :---: | :---: | :---: |
-|  ✓  | ✓   |   ✓ | ✓ |✓  |        ✓   |
 
 
