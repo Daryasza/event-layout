@@ -1,90 +1,25 @@
 # Adaptive layout for an event agency website
 
 ## Description 
-Pure HTML & CSS layout. 
+#### Pure HTML & CSS layout. 
 
-<svg fill="none" viewBox="0 0 800 400" width="800" height="400" xmlns="http://www.w3.org/2000/svg">
-	<foreignObject width="100%" height="100%">
-		<div xmlns="http://www.w3.org/1999/xhtml">
-			<style>
-				@keyframes rotate {
-					0% {
-						transform: rotate(3deg);
-					}
-					100% {
-						transform: rotate(-3deg);
-					}
-				}
-				@keyframes gradientBackground {
-					0% {
-						background-position: 0% 50%;
-					}
-					50% {
-						background-position: 100% 50%;
-					}
-					100% {
-						background-position: 0% 50%;
-					}
-				}
-				@keyframes fadeIn {
-					0% {
-						opacity: 0;
-					}
-					66% {
-						opacity: 0;
-					}
-					100% {
-						opacity: 1;
-					}
-				}
-				.container {
-					font-family:
-						system-ui,
-						-apple-system,
-						'Segoe UI',
-						Roboto,
-						Helvetica,
-						Arial,
-						sans-serif,
-						'Apple Color Emoji',
-						'Segoe UI Emoji';
-					display: flex;
-					flex-direction: column;
-					align-items: center;
-					justify-content: center;
-					margin: 0;
-					width: 100%;
-					height: 400px;
-					background: linear-gradient(-45deg, #fc5c7d, #6a82fb, #05dfd7);
-					background-size: 600% 400%;
-					animation: gradientBackground 10s ease infinite;
-					border-radius: 10px;
-					color: white;
-					text-align: center;
-				}
-				h1 {
-					font-size: 50px;
-					line-height: 1.3;
-					letter-spacing: 5px;
-					text-transform: uppercase;
-					text-shadow:
-						0 1px 0 #efefef,
-						0 2px 0 #efefef,
-						0 3px 0 #efefef,
-						0 4px 0 #efefef,
-						0 12px 5px rgba(0, 0, 0, 0.1);
-					animation: rotate ease-in-out 1s infinite alternate;
-				}
-				p {
-					font-size: 20px;
-					text-shadow: 0 1px 0 #efefef;
-					animation: 5s ease 0s normal forwards 1 fadeIn;
-				}
-			</style>
-			<div class="container">
-				<h1>Made with HTML &amp; CSS<br/>not an animated GIF</h1>
-				<p>Click to see the source</p>
-			</div>
-		</div>
-	</foreignObject>
-</svg>
+<p>
+	<img width="500" alt="Screenshot 2022-11-21 at 12 10 19" src="https://user-images.githubusercontent.com/92443952/203026728-83d90aa1-5334-4863-a398-507fe41a88f6.png">
+	<img width="500" alt="Screenshot 2022-11-21 at 12 10 48" src="https://user-images.githubusercontent.com/92443952/203026761-58f236a4-8e46-4d71-80a2-d67baaf5952c.png">
+</p>
+
+
+#### Completely adaptive
+<p>
+<img width="348" alt="Screenshot 2022-11-21 at 12 11 30" src="https://user-images.githubusercontent.com/92443952/203027639-21e59ffb-f86a-4ce0-b8e8-25ee72e26e88.png">
+<img width="348" alt="Screenshot 2022-11-21 at 12 11 44" src="https://user-images.githubusercontent.com/92443952/203027661-8210d234-6708-4447-b76f-9f5423f631c5.png">
+</p>
+
+
+## Browser Support
+
+| Chrome  | Android (WebView) |  Safari | Safari on iOS | Edge | IE |
+| :---:   | :---: | :---: | :---: | :---: | :---: |
+|  ✓  | ✓   |   ✓ | ✓ |✓  |        ✓   |
+
+
